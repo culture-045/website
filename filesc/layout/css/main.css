@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1488CC;
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    font-family: 'Rajdhani', sans-serif;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    display: flex;
+}
+
+#navbar a{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:  #fff;
+    margin: 10px;
+}
+#navbar a:active{
+    transform: scale(.9);
+}
+
+#logo{
+    position: relative;
+    height: 20px;
+    width: 60px;
+    color: #1488CC;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 3rem;
+}
+
+#logo:nth-of-type(1){
+    left: 20px;
+    top: 20px;
+}
+#logo:nth-of-type(2){
+    left: 90px;
+    top: 40px;
+}

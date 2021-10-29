@@ -1,0 +1,97 @@
+.main{
+    display: grid;
+}
+
+.navbar{
+    font-family: 'Rajdhani', sans-serif;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    display: flex;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:  #fff;
+    margin: 10px;
+}
+.navbar a:active{
+    transform: scale(.9);
+}
+
+#curses-links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 200px;
+    grid-column-gap: 200px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#card-curse{
+    background-color: rgba(255, 255, 255, 0);
+    height: 200px;
+    width: 200px;
+    display: grid;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transition: all .5s;
+}
+#card-curse:active{
+    transform: scale(.8);
+}
+
+#icono{
+    font-size: 5rem;
+    color: #000673ab;
+}
+
+.title-curse{
+    color: #000673b4;
+    font-size: 1.7rem;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+
+/* 
+hover
+*/
+#card-curse:hover{
+    transition: all .5s;
+    /* background-color: #7e14da; */
+    /* filter: drop-shadow(0px 0px 15px #444); */
+    box-shadow: 0px 0px 30px #555;
+}
+
+
+
+/* .fa-terminal{
+    color: #444;
+}
+.fa-python{
+    color: rgba(248, 241, 32, 0.844);
+}
+.fa-html5{
+    color: orangered;
+}
+.fa-css3-alt{
+    color: #002dff;
+}
+.fa-java{
+    color: #ce0b0b;
+}
+.fa-linux{
+    color: #222;
+}
+.fa-redhat{
+    color: #ff0000;
+}
+.fa-network-wired{
+    color: rgb(76, 168, 238);
+} */

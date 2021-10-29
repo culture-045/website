@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linux King</title>
+    <link rel="stylesheet" href="/layout/css/main.css">
+    <link rel="stylesheet" href="/layout/css/profile.css">
+    <!-- links para conectar con las api's de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- fuente para el menu -->
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Rajdhani&display=swap"rel="stylesheet"/>
+    <!-- fuente para el logo -->
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
+    <!-- funte para el info de usuario -->
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet"> 
+  </head>
+
+  <body>
+    <div class="main">
+
+
+        <div id="navbar">
+            <a href="/src/homapage.html">Inicio</a> <a href="/src/blocks/cursos-home.html">Cursos</a>
+        </div>
+
+      <p id="logo"><span style="font-size: 4rem;">L</span>inux</p> <p id="logo"> <span style="font-size: 4rem;">K</span>ing</p>
+    </div>
+
+    <div id="perfil_info">
+        <div class="foto_p">
+
+        </div>
+        <div class="info_perfil">
+            <span>Name:</span> <!-- var name --> <br>
+            <span>ID:</span> <!-- var id --> <br>
+            <span>Progreso:</span> 
+            <br>
+            <canvas id="grafica"></canvas>
+        </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+    <script src="../../layout/js/graficas.js"></script>
+
+  </body>
+</html>
